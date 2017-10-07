@@ -1,0 +1,17 @@
+.navbar.navbar-default {
+    height: 80px;
+    position: relative;
+}
+.navbar.navbar-default > .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand>svg {
+    padding: 7px 14px;
+  }

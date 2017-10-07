@@ -1,8 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/index.css';
+import Board from './App';
+import Header from './header/header';
+import NavbarResPonsive from './header/navbar';
+import LottieControl from './header/logoAnimation';
 import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
+import './styles/Third Library/bootstrap.min.css'
+import './styles/Third Library/bootstrap-theme.min.css'
+ReactDOM.render(
+    <div>
+        <NavbarResPonsive />
+        <Header />
+        <Board />
+    </div>
+, document.getElementById('root'));
 registerServiceWorker();
