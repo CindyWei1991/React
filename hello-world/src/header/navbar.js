@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Nav, Navbar, NavItem, NavDropdown, MenuItem} from "react-bootstrap";
 import '../styles/navbarStyle.css';
 import LottieControl from './logoAnimation';
+import SearchBar from './searchBar';
 
 class NavbarResPonsive extends Component{
     render() {
@@ -31,6 +32,8 @@ class NavbarResPonsive extends Component{
               <Nav pullRight>
                 <NavItem eventKey={1} href="#">Link Right</NavItem>
                 <NavItem eventKey={2} href="#">Contact Us</NavItem>
+                <SearchBar />
+                
               </Nav>
             </Navbar.Collapse>
           </Navbar>
