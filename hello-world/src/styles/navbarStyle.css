@@ -40,11 +40,8 @@
     display: flex;
 }
 .searchIcon {
-    height: 30px;
-    width: 30px;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    height: 26px;
+    width: 26px;
     margin-left: 1.5em;
 }
 nav a {
