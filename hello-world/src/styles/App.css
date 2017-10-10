@@ -8,10 +8,13 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-image: url('../imgs/light-bg.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 700px;
   padding: 20px;
   color: white;
+  position: relative;
 }
 
 .App-title {
@@ -22,10 +25,7 @@
   font-size: large;
 }
 
-.App-header {
-  position: relative;
-  top: 80px;
-}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

@@ -21,6 +21,8 @@ class NavbarResPonsive extends Component{
               <Nav>
                 <NavItem eventKey={1} href="#">Home</NavItem>
                 <NavItem eventKey={2} href="#">About Us</NavItem>
+                <NavItem eventKey={3} href="#">News</NavItem>
+                <NavItem eventKey={4} href="#">Projects</NavItem>
                 <NavDropdown eventKey={3} title="Products" id="basic-nav-dropdown">
                   <MenuItem eventKey={3.1}>LED Emergency Lighting</MenuItem>
                   <MenuItem eventKey={3.2}>LED Lamps Lighting</MenuItem>
@@ -30,10 +32,10 @@ class NavbarResPonsive extends Component{
                 </NavDropdown>
               </Nav>
               <Nav pullRight>
-                <NavItem eventKey={1} href="#">Link Right</NavItem>
+                <NavItem eventKey={1} href="#">Craeers</NavItem>
                 <NavItem eventKey={2} href="#">Contact Us</NavItem>
-                <SearchBar />
-                
+                <NavItem eventKey={3} href="#">Search</NavItem>
+              
               </Nav>
             </Navbar.Collapse>
           </Navbar>

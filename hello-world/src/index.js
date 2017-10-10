@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import Board from './App';
 import Header from './header/header';
+import Footer from './footer/footer';
 import NavbarResPonsive from './header/navbar';
 import LottieControl from './header/logoAnimation';
 import registerServiceWorker from './registerServiceWorker';
@@ -13,6 +14,7 @@ ReactDOM.render(
         <NavbarResPonsive />
         <Header />
         <Board />
+        <Footer />
     </div>
 , document.getElementById('root'));
 registerServiceWorker();
