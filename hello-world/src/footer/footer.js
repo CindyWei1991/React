@@ -8,12 +8,44 @@ class Footer extends Component {
     return (
     <div>
         <footer className="App-footer">
-           <div className="row">
-           
-           
-           
-           
-           </div>
+          <div className="container">
+            <div className="column1">
+              <div className="columnHeader">
+                Products
+              </div>
+              <div className="columnContent">
+              <ul>
+              <li href="#">Link2</li>
+              <li href="#">Link2</li>
+              <li href="#">Link2</li>
+              </ul>
+              </div>
+            </div>
+            <div className="column2">
+            <div className="columnHeader">
+                News
+              </div>
+              <div className="columnContent">
+                <ul>
+                <li href="#">Link2</li>
+                <li href="#">Link2</li>
+                <li href="#">Link2</li>
+                </ul>
+              </div>
+            </div>
+            <div className="column3">
+              <div className="columnHeader">
+                Contact Us
+              </div>
+              <div className="columnContent">
+              <ul>
+              <li href="#">Link2</li>
+              <li href="#">Link2</li>
+              <li href="#">Link2</li>
+              </ul>
+              </div>
+            </div>
+          </div>
            
        </footer>
     </div>

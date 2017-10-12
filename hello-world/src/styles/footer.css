@@ -3,3 +3,26 @@
     background-color:  #f57c00;
     width:100%
 }
+.App-footer .container {
+    flex-wrap: wrap;
+    height: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.App-footer .container ul {
+    list-style: none;
+    padding-left: 0
+}
+
+
+.App-footer .container ul li{
+    color: white;
+    font-size:12px
+}
+.columnHeader {
+    color: white;
+    font-size: 16px
+}

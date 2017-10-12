@@ -3,7 +3,7 @@ import '../styles/navbarStyle.css';
 class SearchBar extends Component {
   render() {
     return (
-        <img src={require("../imgs/search-icon.png")} className="searchIcon"/>
+        <img src={require("../imgs/search-icon.png")} alt="search" className="searchIcon"/>
     )
   }
 }

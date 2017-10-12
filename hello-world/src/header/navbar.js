@@ -34,7 +34,7 @@ class NavbarResPonsive extends Component{
               <Nav pullRight>
                 <NavItem eventKey={1} href="#">Craeers</NavItem>
                 <NavItem eventKey={2} href="#">Contact Us</NavItem>
-                <NavItem eventKey={3} href="#"><SearchBar /></NavItem>
+                <NavItem eventKey={3} href="#" className="searchContainer"><SearchBar /></NavItem>
               
               </Nav>
             </Navbar.Collapse>
