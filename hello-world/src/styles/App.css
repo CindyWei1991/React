@@ -11,7 +11,7 @@
   background-image: url('../imgs/light-bg.jpg');
   background-repeat:no-repeat;
   background-size:cover;
-  height: 450px;
+  height: 100%;
   padding: 20px;
   color: white;
   position: relative;
@@ -25,7 +25,11 @@
   font-size: large;
 }
 
-
+.bodyContainer {
+  height: 100%;
+  position: absolute;
+  width:100%
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

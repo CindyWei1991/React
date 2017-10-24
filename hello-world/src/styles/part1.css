@@ -1,0 +1,16 @@
+.part1 {
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline ;
+    padding: 2em;
+}
+
+.column1 {
+    flex-basis: 30%
+}
+.column2 {
+    flex-basis: 30%
+}
+.column3 {
+    flex-basis: 30%
+}

@@ -21,8 +21,8 @@ class Header extends Component {
 
   render() {
     return (
-    <div>
-        <header className="App-header">
+    <div className="App-header">
+        <header>
            
        </header>
     </div>

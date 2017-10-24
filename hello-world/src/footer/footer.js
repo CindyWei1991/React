@@ -45,6 +45,18 @@ class Footer extends Component {
               </ul>
               </div>
             </div>
+            <div className="column4">
+              <div className="columnHeader">
+                Address
+              </div>
+              <div className="columnContent">
+              <ul>
+              <li href="#">Link2</li>
+              <li href="#">Link2</li>
+              <li href="#">Link2</li>
+              </ul>
+              </div>
+            </div>
           </div>
            
        </footer>
